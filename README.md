@@ -36,7 +36,7 @@ And use this script:
 ```javascript
 $('#form').validates({
     error: function(err_field) {
-        $(err_field).addClass('error'); // Can be customized
+        $(err_field).addClass('error');
     },
     ok: function (ok_field) {
         $(ok_field).removeClass('error');   
